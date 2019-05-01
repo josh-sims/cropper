@@ -1,0 +1,21 @@
+//cropper
+.uix-nav{
+	margin:20px 0px;
+}
+.uix-nav-heading{
+  font-size:32px;
+  margin-left:10px;
+  font-family:"Roboto", sans-serif;
+  font-weight:300;
+  @media(max-width:768px){
+    font-size:26px;
+  }
+}
+.uix-nav-heading a{
+  text-decoration:none;
+  color:#212529;
+}
+
+.thumbnail{
+  margin:10px;
+}

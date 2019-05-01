@@ -1,0 +1,58 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'cropper.scss';
+@import 'form.scss';
+@import 'typography.scss';
+@import 'buttons.scss';
+
+body{
+  padding-bottom:30px;
+}
+a:hover{
+ text-decoration:none; 
+}
+.clearfix{
+  clear:both;
+  height:1px;
+}
+//pagination
+.pagination{
+  margin-top:30px;
+}
+
+.page-item.active .page-link{
+  background-color:#f06000;
+  border-color:#f06000;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #f06000;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.card.latest{
+  @media(max-width:991px){
+    margin-bottom:30px;
+  }
+}
+
+.breadcrumbs{
+  margin:10px 0 20px;
+}
+.breadcrumbs a{
+  color: #f06000;
+}
